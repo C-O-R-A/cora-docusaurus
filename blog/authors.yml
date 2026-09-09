@@ -1,0 +1,46 @@
+matthew:
+  name: Matthew de Lannoy
+  title: Lead Engineer, Co-founder at CORA
+  url: https://www.linkedin.com/in/matthew-de-lannoy-638847416/
+  image_url: https://github.com/matt-rbt.png
+  page: true
+  socials:
+    linkedin: matthew-de-lannoy
+    github: matt-rbt
+
+martijn:
+  name: Martijn Boonen
+  title: Mechatronics Engineer, Co-founder at CORA
+  url: https://www.linkedin.com/in/martijn-boonen-3a89762aa/
+  image_url: https://github.com/boonenmartijn.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/all-martijn-boonen-articles'
+  socials:
+    linkedin: martijn-boonen
+    github: boonenmartijn
+
+steven:
+  name: Steven Olivier
+  title: Mechanical Engineer, Co-founder at CORA
+  url: https://www.linkedin.com/in/steven-olivier-476354394/
+  image_url: https://github.com/Steven-0livier.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/all-steven-olivier-articles'
+  socials:
+    linkedin: steven-olivier
+    github: Steven-0livier
+
+marielle:
+  name: Marielle Tielens
+  title: Mechanical Engineer at CORA
+  url: https://www.linkedin.com/in/mari%C3%ABlle-tielens-a9b409376/
+  image_url: https://github.com/marielletielens05.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/all-marielle-tielens-articles'
+  socials:
+    linkedin: marielle-tielens
+    github: marielletielens05
+

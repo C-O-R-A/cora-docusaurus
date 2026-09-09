@@ -1,0 +1,14 @@
+release:
+  label: Release
+  permalink: /release
+  description: CORA release notes and version updates
+
+build-log:
+  label: Build Log
+  permalink: /build-log
+  description: Hardware and software build progress
+
+milestone:
+  label: Milestone
+  permalink: /milestone
+  description: Project milestones and events
