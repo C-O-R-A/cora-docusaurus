@@ -22,12 +22,12 @@ jobs:
         with:
           path: cora_docusaurus
 
-      - name: Checkout cora_docs
+      - name: Checkout cora-documentation
         uses: actions/checkout@v4
         with:
-          repository: C-O-R-A/cora_docs
-          path: cora_docs
-          # token: ${{ secrets.CORA_DOCS_PAT }}   # only needed if cora_docs is private
+          repository: C-O-R-A/cora-documentation
+          path: cora-documentation
+          # token: ${{ secrets.cora-documentation_PAT }}   # only needed if cora-documentation is private
 
       - name: Install ROS 2 Jazzy
         run: |
@@ -48,13 +48,13 @@ jobs:
       - name: Build Sphinx docs
         run: |
           source /opt/ros/jazzy/setup.bash
-          cd cora_docs
+          cd cora-documentation
           make html
 
       - name: Copy Sphinx output into Docusaurus static
         run: |
           rm -rf cora_docusaurus/static/api-sphinx
-          cp -r cora_docs/_build/html cora_docusaurus/static/api-sphinx
+          cp -r cora-documentation/_build/html cora_docusaurus/static/api-sphinx
 
       - name: Set up Node
         uses: actions/setup-node@v4
