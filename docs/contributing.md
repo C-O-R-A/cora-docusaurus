@@ -7,7 +7,7 @@ new joint types, bug fixes, documentation, or build guides.
 
 | Area | What's needed |
 |------|--------------|
-| Joint library | New joint types (prismatic, spherical, gripper). See [Adding a Joint](joint-custom.md). |
+| Joint library | New joint types (prismatic, spherical, gripper). See [Adding a Joint](../docs/01%20Configuration/Contribute/joint-custom.md). |
 | Configurator | Joint parameter panels, export progress modal, connection validation UX. |
 | Export pipeline | STEP assembly generation, URDF collision refinement. |
 | codi SDK | Motion primitives, gripper API, trajectory recording. |

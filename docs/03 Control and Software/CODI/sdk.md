@@ -194,8 +194,3 @@ tearing down and reconnecting if `states_socket`, `command_socket`, or
 `config_socket` drop. `CoraServer.start()` runs the equivalent supervisor
 and re-accepts a new client connection after any disconnect.
 :::
-
-## Full API reference
-
-See [Python SDK API Reference](../api/python/index.md) for the full
-class and method listing generated from `codi/src/` docstrings.

@@ -16,7 +16,7 @@ function HomepageHeader() {
         </Heading>
         <p className={styles.heroSubtitle}>Configure, Build, Control</p>
         <div className={styles.buttons}>
-          <Link className="button button--primary button--lg" to="/docs/introduction">
+          <Link className="button button--primary button--lg" to="/docs/CORA">
             Get Started
           </Link>
           <Link

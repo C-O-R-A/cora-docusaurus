@@ -19,7 +19,7 @@ source install/setup.bash
 ## RViz2 sim-clock warning
 
 Add `parameters=[{'use_sim_time': True}]` to the RViz2 node in your
-launch file. See [Simulation](simulation.md).
+launch file.
 
 ## Onshape API rate limits
 
