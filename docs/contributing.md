@@ -15,8 +15,8 @@ new joint types, bug fixes, documentation, or build guides.
 
 ## PR checklist
 
-:::{tip} Before opening a PR
-New joint types must include a valid `manifest.json` (CI runs schema validation),
-a `cad.py` that produces a STEP file without errors, and a mesh file pair.
-Backend changes must not break the existing `revolute_80mm` export path.
+:::tip 
+Before opening a PR
+New joint types must include a valid `manifest.json` (CI runs schema validation) and a mesh file pair.
+Backend changes must not break the existing export paths.
 :::

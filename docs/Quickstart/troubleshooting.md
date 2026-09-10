@@ -2,7 +2,8 @@
 
 ## Segfault in gz_ros2_control
 
-:::{warning} ABI mismatch — full clean rebuild required
+:::warning 
+ABI mismatch — full clean rebuild required
 This segfault occurs in STL destructor chains when locally built packages
 were compiled against a different ABI than the system ROS 2 install.
 :::
