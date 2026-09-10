@@ -1,12 +1,19 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 4rem 0;
   width: 100%;
+  background: #0D1117;
 }
 
 .featureSvg {
   height: 200px;
   width: 100%;
+  max-width: 250px;
   object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.featureSvg:hover {
+  transform: scale(1.05);
 }

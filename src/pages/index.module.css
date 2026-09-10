@@ -1,23 +1,79 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
   position: relative;
+  padding: 6rem 0 5rem;
   overflow: hidden;
+  background: #0D1117;
+  background-image:
+    radial-gradient(circle at  0% 100%, rgba(88, 166, 255, 0.0), transparent 70%),
+    radial-gradient(circle at 30% 10%, rgba(88, 166, 255, 0.0), transparent 40%),
+    url('/assets/robots/render_11.png');
+  background-size: cover, cover, 50%;
+  background-position: center, center, right 0% top 50%;
+  background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #0D1117 40%, rgba(13, 17, 23, 0.4) 100%);
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  max-width: 700px;
+  margin: 0;
+  padding-left: 4rem;
+}
+.heroTitle {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  background: linear-gradient(90deg, #ffffff, #58A6FF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+}
+
+.heroSubtitle {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 1.3rem;
+  color: #8b949e;
+  margin-bottom: 2rem;
 }
 
 .buttons {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.githubButton {
+  border-color: #30363d;
+  color: #ffffff;
+}
+
+.githubButton:hover {
+  background: #21262d;
+  border-color: #58A6FF;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    background-image:
+      radial-gradient(circle at 20% 20%, rgba(88, 166, 255, 0.15), transparent 40%),
+      #0D1117;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  .heroContent {
+    max-width: 100%;
+  }
+  .buttons {
+    justify-content: center;
+  }
 }

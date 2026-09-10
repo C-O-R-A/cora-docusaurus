@@ -1,22 +1,30 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
-
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">{siteConfig.title}</Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+    <header className={styles.heroBanner}>
+      <div className={styles.heroOverlay} />
+      <div className={clsx('container', styles.heroContent)}>
+        <Heading as="h1" className={styles.heroTitle}>
+          CORA
+        </Heading>
+        <p className={styles.heroSubtitle}>Configure, Build, Control</p>
         <div className={styles.buttons}>
-          {/* buttons */}
+          <Link className="button button--primary button--lg" to="/docs/introduction">
+            Get Started
+          </Link>
+          <Link
+            className={clsx('button button--outline button--lg', styles.githubButton)}
+            to="https://github.com/C-O-R-A"
+          >
+            View on GitHub
+          </Link>
         </div>
       </div>
     </header>
@@ -24,11 +32,8 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+    <Layout title="CORA" description="Configure, Build, Control — a modular cobot platform">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
