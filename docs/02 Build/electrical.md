@@ -6,7 +6,7 @@ chain (XT90, in + out) and two for CAN bus and IO (Ethernet RJ45).
 ## Wiring
 
 <div>
-    <img src="/assets/diagrams/joint_electronics.png" alt="wiring" style={{width: '60%', borderRadius: '6px', marginBottom: '12px'}} />
+    <img src="/cora-docusaurus/assets/diagrams/joint_electronics.png" alt="wiring" style={{width: '60%', borderRadius: '6px', marginBottom: '12px'}} />
 </div>
 
 
@@ -19,4 +19,3 @@ simultaneously. The two-connector-per-side approach is the practical outcome:
 |----------|-----------|--------|
 | Power (50 A) | `XT60` | 50 A continuous |
 | CAN bus | Ethernet Splitter | Two-wire CAN + shield |
-

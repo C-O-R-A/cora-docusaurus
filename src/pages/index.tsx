@@ -3,12 +3,17 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 
 function HomepageHeader() {
+  const heroImage = useBaseUrl('/assets/robots/exploded2.png');
   return (
-    <header className={styles.heroBanner}>
+    <header
+      className={styles.heroBanner}
+      style={{'--hero-bg-image': `url(${heroImage})`} as React.CSSProperties}
+    >
       <div className={styles.heroOverlay} />
       <div className={clsx('container', styles.heroContent)}>
         <Heading as="h1" className={styles.heroTitle}>

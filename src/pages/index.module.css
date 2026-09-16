@@ -4,11 +4,11 @@
   overflow: hidden;
   background: #0D1117;
   background-image:
-    radial-gradient(circle at  0% 100%, rgba(88, 166, 255, 0.0), transparent 70%),
-    radial-gradient(circle at 30% 10%, rgba(88, 166, 255, 0.0), transparent 40%),
-    url('/assets/robots/render_11.png');
-  background-size: cover, cover, 50%;
-  background-position: center, center, right 0% top 50%;
+    radial-gradient(circle at 20% 20%, rgba(88, 166, 255, 0.15), transparent 40%),
+    radial-gradient(circle at 80% 0%, rgba(88, 166, 255, 0.1), transparent 40%),
+    var(--hero-bg-image);
+  background-size: cover, cover, 45%;
+  background-position: center, center, right 5% top 50%;
   background-repeat: no-repeat;
 }
 
@@ -24,8 +24,9 @@
   text-align: left;
   max-width: 700px;
   margin: 0;
-  padding-left: 4rem;
+  padding-left: var(--ifm-spacing-horizontal);
 }
+
 .heroTitle {
   font-family: var(--ifm-font-family-monospace);
   font-size: 4rem;

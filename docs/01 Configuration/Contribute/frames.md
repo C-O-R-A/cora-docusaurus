@@ -5,7 +5,7 @@
 Each joint has standard input and output frames that, when coincident, connect the joints in their default position. Below is such an example of R105.
 
 <div>
-    <img src="/assets/diagrams/Joint_frames.png" alt="reference frames" style={{width: '60%', borderRadius: '6px', marginBottom: '12px'}} />
+    <img src="/cora-docusaurus/assets/diagrams/Joint_frames.png" alt="reference frames" style={{width: '60%', borderRadius: '6px', marginBottom: '12px'}} />
 </div>
 
 
