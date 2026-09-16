@@ -25,5 +25,5 @@ cora/
 
 
 <div>
-    <img src="/assets/diagrams/architecture.png" alt="wiring" style={{width:'100%', borderRadius:'6px', marginBottom:'12px'}}/>
+    <img src="/cora-docusaurus/assets/diagrams/architecture.png" alt="wiring" style={{width:'100%', borderRadius:'6px', marginBottom:'12px'}}/>
 </div>

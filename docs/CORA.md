@@ -20,7 +20,7 @@ Cora is an open source and modular robotic platform. This project focuses on the
 Designing, Building and programming your own arm involves several steps as follows:
 
 <div>
-    <img src="/assets/diagrams/workflow.png" alt="workflow" style={{width: '100%', borderRadius: '6px', marginBottom: '12px'}} />
+    <img src="/cora-docusaurus/assets/diagrams/workflow.png" alt="workflow" style={{width: '100%', borderRadius: '6px', marginBottom: '12px'}} />
 </div>
 
 ## Main Documentation Sources
